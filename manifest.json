@@ -9,7 +9,7 @@
     "content_scripts": [ 
         {
             "matches": ["http://stream.proxer.me/*","https://stream.proxer.me/*"],
-            "js":      ["jquery1.11.3.min.js", "proxerhdvideocontrols.js"],
+            "js":      ["jquery1.11.3.min.js", "proxerhdvideocontrols.user.js"],
             "all_frames": true,
             "run_at": "document_end"
         } 
