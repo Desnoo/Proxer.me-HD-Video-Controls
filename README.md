@@ -6,8 +6,8 @@ Features
 ========
 - Toggle Fullscreen by doubleclick
 - Space to pause or resume video
-- up or down arrow to adjust volume
-- left or right arrow to skip  +- 1 second
+- up or down arrow to adjust volume +- 1%
+- left or right arrow to skip  +- 5 second
 - k and l to skip +- 70 seconds (to skip intros)
 
 Development
