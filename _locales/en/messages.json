@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message": "Proxer.me HD-Video Controls",
+        "description": "Extension name"
+    },
+    "extDescription": {
+        "message": "This extension adds some HTML 5 video controls to the HD Videos of Proxer.me.",
+        "description": "Extension description"
+    }
+}

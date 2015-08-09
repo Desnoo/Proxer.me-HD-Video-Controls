@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message": "Proxer.me HD-Video Controls",
+        "description": "Extension name"
+    },
+    "extDescription": {
+        "message": "Diese Erweiterung fügt den Proxer HD Videos zusätzliche Kontrolloptionen hinzu.",
+        "description": "Extension description"
+    }
+}
