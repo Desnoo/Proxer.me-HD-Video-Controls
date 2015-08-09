@@ -20,7 +20,8 @@ In Chrome go to `Settings` -> `Extensions`. Enable there `Developer mode`. Then 
 
 Installation
 ============
--Chrome : 
-    --Grab the .crx file an drag it to your extension view to install it. [CRX Download](https://github.com/Desnoo/Proxer.me-HD-Video-Controls/releases/download/v1.0/Proxer.me-HD-Video-Controls.crx)
+- Chrome : 
+    - Grab the .crx file an drag it to your extension view to install it. [CRX Download](https://github.com/Desnoo/Proxer.me-HD-Video-Controls/releases/download/v1.0/Proxer.me-HD-Video-Controls.crx)
 
--Tampermonkey: Press install on the upper right:  [https://openuserjs.org/src/libs/Desnoo/proxerhdvideocontrols.js](https://openuserjs.org/src/libs/Desnoo/proxerhdvideocontrols.js)
+- Tampermonkey: 
+    - Press install on the upper right:  [https://openuserjs.org/src/libs/Desnoo/proxerhdvideocontrols.js](https://openuserjs.org/src/libs/Desnoo/proxerhdvideocontrols.js)
