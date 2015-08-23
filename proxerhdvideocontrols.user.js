@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Proxer.me HD-Video Controls
 // @namespace    http://stream.proxer.me
-// @version      1.1
+// @version      1.2
 // @description  Diese Erweiterung fügt den Proxer HD Videos zusätzliche Kontrolloptionen hinzu.
 // @author       Desnoo
 // @include      http://stream.proxer.me/*
