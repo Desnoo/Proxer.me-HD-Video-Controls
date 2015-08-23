@@ -9,6 +9,8 @@
 // @run-at       document-end
 // ==/UserScript==
 
+var volumeCookieName = "hd-vol";
+
 var volumeStep = 0.01;
 var durationProgressStep = 5;
 var skipDurationOpening = 70;
@@ -20,16 +22,24 @@ var arrowRight = 39;
 var k = 75;
 var l = 76;
 
+
 document.domain = 'proxer.me';
 
 $(document).ready(function (e) {
   var isFullScreen = false;
   var $video = $('video');
-  if ($video[0] == undefined) {
+  if ($video[0] === undefined) {
     console.log('Video reference not found.');
     return;
   }
+  
   var videoReference = $video[0];
+  setVolumeByCookie(videoReference);
+  
+  $video.on('volumechange', function(e){
+	  document.cookie = volumeCookieName + "=" + videoReference.volume;
+  });
+  
   $video.on('canplay', function () {
     $video.on('SkipTime', function (e, timeToSkip) {
       videoReference.currentTime += timeToSkip;
@@ -127,4 +137,20 @@ $(document).ready(function (e) {
       }
     }
   }
+  // checks and evaluates volume cookie
+	function setVolumeByCookie(_VideoRef){
+		var volume = getCookie(volumeCookieName);
+		videoReference.volume = volume !== "" ? volume : videoReference.volume;
+	}
+
+	function getCookie(cname) {
+		var name = cname + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0; i<ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0)===' ') c = c.substring(1);
+			if (c.indexOf(name) === 0) return c.substring(name.length,c.length);
+		}
+		return "";
+	}
 });
