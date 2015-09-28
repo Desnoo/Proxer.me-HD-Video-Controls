@@ -24,4 +24,4 @@ Installation
     - Grab the .crx file an drag it to your extension view to install it. [CRX Download](https://github.com/Desnoo/Proxer.me-HD-Video-Controls/releases/download/v1.0/Proxer.me-HD-Video-Controls.crx)
 
 - Tampermonkey: 
-    - Press install on the upper right:  [https://openuserjs.org/src/libs/Desnoo/proxerhdvideocontrols.js](https://openuserjs.org/src/libs/Desnoo/proxerhdvideocontrols.js)
+    - Press install on the upper right:  [https://openuserjs.org/scripts/Desnoo/Proxer.me_HD-Video_Controls](https://openuserjs.org/scripts/Desnoo/Proxer.me_HD-Video_Controls)
